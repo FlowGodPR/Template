@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script SRC="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sign In To GitHub Clone Project </title> 
+</head>
+
+<body>
+    <!-- Center content -->
+    <main style="width: 300px; margin: auto; margin-top: 50px;">
+
+        <!-- Logo and title -->
+        <section style="text-align: center; margin-bottom: 50px;">
+            <img src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg" style="width: 50px;" alt="GitHub Logo">
+            <h1>Sign in to GitHub Clone</h1>
+        </section>
+
+        <!-- Form -->
+        <section style="background: #ff0000; padding: 30px; border-radius: 10px; border: 1px solid #d8dee4a3; text-align; center">
+            <form action="/login" method="POST">
+
+                <!-- Username -->
+                <div style="text-align: center; margin-bottom: 10px;">
+                    <label for="username" style="font-weight: bold;">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username HERE" 
+                    style="text-align: center; width: 100%; padding: 10px; border: 1px solid #d8dee4; border-radius: 5px;" required>
+                </div>
+                
+                <!-- Password -->
+                <div style="text-align: center; margin-bottom: 10px;">
+                    <label for="password" style="font-weight: bold;">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password HERE" 
+                    style="text-align:center; width: 100%; padding: 10px; border: 1px solid #d8dee4; border-radius: 5px;" required>
+                </div>
+                
+                <!-- Submit button -->
+                <button type="submit" style="width: 100%; padding: 10px; background-color: #3f2da4; color: white; 
+                border: none; border-radius: 5px; cursor: pointer;">
+                    Sign In
+                </button>
+
+            </form>
+        </section>
+			
+		<!-- Forgot Password -->
+		<section style="text-align: center; background: #ef00a748; padding: 30px; border-radius: 10px; border: 1px solid #d8dee4a3;">
+				<div style="text-align: center,margin-bottom: 15px; display; flex; justify-content: flex-end;">
+					<a href="/forgot-password" style="font-size: 14px; color: #0366d6 text-decoration: none;">Forgot Password?</a>
+				</div>
+		</section>		
+    </main>
+
+	<!-- Footer -->
+    <footer style= "text-align: center; margin-top: auto; padding: 15px; background: #00ff40; border-top: 1px solid #d8dee4; 
+	position:absolute; bottom: 0; width: 100%;">
+        <p style="font-size: 14px;"
+        >GitHub Clone Project - Simple Login Page for coding class week 2, Here lies the footer and other usefull links and information. 
+        By. Wesley Melendez </p>
+        <p style="font-size: 14px;">
+            <a href="/about" style="color: #0366d6; text-decoration: none;">About</a> |
+            <a href="/privacy" style="color: #0366d6; text-decoration: none;">Privacy</a> |
+            <a href="/terms" style="color: #0366d6; text-decoration: none;">Terms</a>
+        </p>
+    </footer>
+
+</body>
+</html>
